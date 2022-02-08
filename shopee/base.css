@@ -16,7 +16,17 @@ html {
 }
 
 /* Responsive */
-.grid-row {
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__full-wildth{
+  width: 100%;
+}
+
+.grid__row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -5px;
@@ -30,7 +40,7 @@ html {
   width: 16.667%;
 }
 
-.grid-column-2-4 {
+.grid__column-2-4 {
   padding-left: 5px;
   padding-right: 5px;
   width: 20%;
@@ -165,4 +175,39 @@ html {
   top: -10px;
   width: 100%;
   height: 20px;
+}
+
+
+/* Pagination */
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-item{
+  list-style: none;
+  margin: 0 8px;
+}
+
+.pagination-item--active .pagination-item__link{
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+}
+
+.pagination-item--active .pagination-item__link:hover{
+  background-color: rgb(218, 126, 50);
+}
+
+.pagination-item__link{
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(160, 159, 159);
+  min-width:40px;
+  height:30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 2px;
+  font-weight: 300;
 }

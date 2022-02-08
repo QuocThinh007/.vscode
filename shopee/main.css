@@ -1158,3 +1158,34 @@
   position: relative;
   top: -4px;
 }
+
+.home-product__pagination{
+  margin: 45px 0 32px 0;
+}
+
+/* Footer */
+.footer{
+  border-top: 4px solid #f53e2d;
+  padding-top: 12px;
+}
+.footer__heading{
+  font-size: 14px;
+}
+.footer-list{
+padding-left: 0;
+}
+
+.footer-item{
+  list-style: none;
+}
+
+.footer-item__list{
+  text-decoration: none;
+  color:rgb(136, 136, 136);
+  padding: 2px 0;
+  display: block;
+}
+
+.footer-item__list:hover{
+  color: #f53e2d;
+}
